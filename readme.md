@@ -1,5 +1,16 @@
 # digital-form-builder
 
+This repository is forked from [DEFRA's digital form builder](https://github.com/DEFRA/digital-form-builder).
+The supplementary [designer](https://github.com/UKForeignOffice/digital-form-builder-designer) and [engine](https://github.com/UKForeignOffice/digital-form-engine) repositories have also been forked.
+These projects has been adapted to run several configurations on a single instance.
+
+
+> DEFRA's digital form builder is a metadata-driven framework that builds on our robust,
+enterprise backend tech stack and the new gov.uk frontend Design System and allows form based gov.uk sites to be easily
+built using a graphical design tool.
+
+The designer is no longer a plugin and is responsible for running itself on default port 3000. 
+
 DEFRA's digital form builder is a metadata-driven framework that builds on our robust, enterprise backend tech stack and the new gov.uk frontend Design System and allows form based gov.uk sites to be easily built using a graphical design tool.
 
 The framework is flexible. It is capable of handling a number of different scenarios where form based page are required. E.g. Collecting data in a transactional service or checking if a service is suitable for an end user.
