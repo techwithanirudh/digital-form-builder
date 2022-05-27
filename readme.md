@@ -16,8 +16,17 @@ The default playground application is an extended version of the [Check a servic
 ## Getting started
 
 ### Prerequisites
-Install Node.js v8.x.x
+Install Python 2.7
 
+Install Node.js v8.x.x 
+
+Install Visual Studio Build Tools or Visual Studio
+
+> C++
+
+> Nodejs Development
+
+Install `npm i -g node-sass` (required).
 Install `npm i -g browser-refresh` (optional). 
 This is like `nodemon` and restarts the server when files change.
 Additionally it reloads the browser page is useful during development.
@@ -35,9 +44,12 @@ Install dependencies
 
 `$ npm i`
 
+Compile SASS
+`$ npm run build:css`
+
 You are now ready to start.
 
-`$ browser-refresh`
+`$ npm start`
 
 
 Open your browser at
